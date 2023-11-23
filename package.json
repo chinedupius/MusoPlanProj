@@ -1,0 +1,19 @@
+{
+  "name": "musoplan",
+  "version": "1.0.1",
+  "description": "musical management system",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chinedupius/MusoPlanProj.git"
+  },
+  "author": "Chinedu Pius Ukachukwu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chinedupius/MusoPlanProj/issues"
+  },
+  "homepage": "https://github.com/chinedupius/MusoPlanProj#readme"
+}
