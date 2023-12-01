@@ -59,9 +59,8 @@ To use MusoPlan, follow these simple steps:
 
 Here's an example sequence of actions:
 
-=====================================
 MusoPlan Software Management System
-=====================================
+===================================
 
    1. Create a Musician
    2. Create a Troupe
