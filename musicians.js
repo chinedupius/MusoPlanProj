@@ -66,4 +66,4 @@ class Flautist extends Musician {
 }
 
 // Exporting the classes to make them available for import in other files
-module.exports = { Guitarist, Bassist, Percussionist, Flautist };
+module.exports = { Guitarist, Bassist, Percussionist, Flautist, Musician };

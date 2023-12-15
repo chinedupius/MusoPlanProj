@@ -1,6 +1,5 @@
 // Class representing a musical troupe with properties like name, genre, duration, and musicians
 class Troupe {
-
     // method to add members to troupe member array
     constructor(name, genre, minimumDuration) {
         // Initialize troupe properties
@@ -12,9 +11,15 @@ class Troupe {
 
 
         // Validate troupe name length
+        //Had to move the validation to addMusician method. Will be called when the add musician is called
+        //if (name.length < 3 || name.length > 30) {
+           // throw new Error('Troupe name must be between 3 and 30 characters.');
+        //}
+
+        // Validate troupe name length
         if (name.length < 3 || name.length > 30) {
             throw new Error('Troupe name must be between 3 and 30 characters.');
-        }
+         }
 
         // Validate genre
         if (!['rock', 'jazz', 'pop'].includes(genre)) {
@@ -29,13 +34,15 @@ class Troupe {
 
     // Method to add a musician to the troupe
     addMusician(musician) {
+
         if (this.musicians.length >= 5) {
             throw new Error('Cannot add more than 5 musicians to a troupe.');
         }
         this.musicians.push(musician);
 
-
-        console.log(`Added member: ${musician.name} with rate $${musician.ratePerHour}/hour`);
+        //console.log(`Added member: ${musician.name} with rate $${musician.ratePerHour}/hour`);
+        //We return the expected value
+        return(`Added member: ${musician.name} with rate $${musician.ratePerHour}/hour`);
     }
 
     addMember(musician) {

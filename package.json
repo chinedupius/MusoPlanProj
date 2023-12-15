@@ -1,10 +1,10 @@
 {
-  "name": "musoplan",
-  "version": "1.0.1",
+  "name": "testing_musoplan_managament_system",
+  "version": "1.0.2",
   "description": "musical management system",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/chinedupius/MusoPlanProj/issues"
   },
-  "homepage": "https://github.com/chinedupius/MusoPlanProj#readme"
+  "homepage": "https://github.com/chinedupius/MusoPlanProj#readme",
+  "dependencies": {
+    "jest": "^29.7.0"
+  },
+  "devDependencies": {}
 }
