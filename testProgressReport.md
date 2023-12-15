@@ -67,7 +67,3 @@ However, testing the Troupes class presented challenges and ambiguities, primari
 The input process from the user made it difficult to test attributes such as the troupe name, type, years of playing, and hourly rate. To overcome this, variables were created to pass values, allowing for successful test execution that meets the client's requirements.
 
 Adjustments to the code were required for creating a troupe for testing purposes, as the initial troupe tests did not pass.
-
-## Appendix: JUnit XML Document
-
-A JUnit XML document has not been provided. Once the JUnit XML results are available, they should be appended here to complete the test documentation.
