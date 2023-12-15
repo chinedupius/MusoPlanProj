@@ -21,7 +21,7 @@ The musician "John Doe" was created successfully.
 ### Modifications Required:
 No modifications required.
 
-============================================================================
+===
 
 ## Test Case 2: Creating a Troupe
 
@@ -42,7 +42,7 @@ The troupe "Rock Band" was created successfully.
 ### Modifications Required:
 No modifications required.
 
-============================================================================
+===
 
 ## Test Case 3: Adding a Musician to a Troupe
 
@@ -62,7 +62,7 @@ The musician "John Doe" was added to the "Rock Band" troupe successfully.
 ### Modifications Required:
 No modifications required.
 
-============================================================================
+===
 
 ## Test Case 4: Showing Cost per Hour
 
@@ -82,7 +82,7 @@ The total cost was calculated and displayed correctly.
 ### Modifications Required:
 No modifications required.
 
-============================================================================
+===
 
 ## Test Case 5: Exporting Troupe Names
 
@@ -101,7 +101,7 @@ The file was created successfully.
 ### Modifications Required:
 No modifications required.
 
-============================================================================
+===
 
 ## Test Case 6: Importing Troupe Names
 
@@ -120,7 +120,7 @@ The troupe names were successfully imported from "abc.txt".
 ### Modifications Required:
 No modifications required.
 
-============================================================================
+===
 
 ## Test Case 7: Showing Troupe Summary
 
@@ -139,7 +139,7 @@ The troupe summary was displayed correctly.
 ### Modifications Required:
 No modifications required.
 
-============================================================================
+===
 
 ## Test Case 8: Showing Detailed Troupe Info
 
@@ -158,7 +158,7 @@ The detailed troupe information was displayed correctly.
 ### Modifications Required:
 No modifications required.
 
-============================================================================
+===
 
 ## Test Case 9: Exiting the Program
 
