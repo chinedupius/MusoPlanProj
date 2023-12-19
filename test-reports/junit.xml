@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="25" failures="0" errors="0" time="5.567">
+  <testsuite name="Troupe Functionality Tests" errors="0" failures="0" skipped="0" timestamp="2023-12-19T12:44:25" time="2.87" tests="3">
+    <testcase classname="Troupe Functionality Tests createMusician creates a musician correctly" name="Troupe Functionality Tests createMusician creates a musician correctly" time="0.031">
+    </testcase>
+    <testcase classname="Troupe Functionality Tests exportTroupeNames writes to a file correctly" name="Troupe Functionality Tests exportTroupeNames writes to a file correctly" time="0.078">
+    </testcase>
+    <testcase classname="Troupe Functionality Tests importTroupeNames imports troupe names correctly" name="Troupe Functionality Tests importTroupeNames imports troupe names correctly" time="0.021">
+    </testcase>
+  </testsuite>
+  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2023-12-19T12:44:25" time="2.805" tests="7">
+    <testcase classname=" Test Musician Name is set correctly" name=" Test Musician Name is set correctly" time="0.035">
+    </testcase>
+    <testcase classname=" Test Musician Name less than 3 characters" name=" Test Musician Name less than 3 characters" time="0.062">
+    </testcase>
+    <testcase classname=" Test Musician Name more than 30 characters" name=" Test Musician Name more than 30 characters" time="0.011">
+    </testcase>
+    <testcase classname=" Test yearsOfPlaying validation for Musician" name=" Test yearsOfPlaying validation for Musician" time="0.005">
+    </testcase>
+    <testcase classname=" Test ratePerHour validation for Musician" name=" Test ratePerHour validation for Musician" time="0.008">
+    </testcase>
+    <testcase classname=" Test introduce method for Musician" name=" Test introduce method for Musician" time="0.005">
+    </testcase>
+    <testcase classname=" Test interestingFact method for Musician and subclasses" name=" Test interestingFact method for Musician and subclasses" time="0.004">
+    </testcase>
+  </testsuite>
+  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2023-12-19T12:44:25" time="2.918" tests="15">
+    <testcase classname=" Test Troupe name is set with correct characters" name=" Test Troupe name is set with correct characters" time="0.029">
+    </testcase>
+    <testcase classname=" Valid genre does not throw an error" name=" Valid genre does not throw an error" time="0.002">
+    </testcase>
+    <testcase classname=" Invalid genre throws an error" name=" Invalid genre throws an error" time="0.062">
+    </testcase>
+    <testcase classname=" Valid minimum duration does not throw an error" name=" Valid minimum duration does not throw an error" time="0.004">
+    </testcase>
+    <testcase classname=" Invalid minimum duration throws an error" name=" Invalid minimum duration throws an error" time="0.006">
+    </testcase>
+    <testcase classname=" Invalid maximum duration throws an error" name=" Invalid maximum duration throws an error" time="0.004">
+    </testcase>
+    <testcase classname="Troupe addMusician Method Tests Successfully adds a musician" name="Troupe addMusician Method Tests Successfully adds a musician" time="0.003">
+    </testcase>
+    <testcase classname="Troupe addMusician Method Tests Throws error when adding a sixth musician" name="Troupe addMusician Method Tests Throws error when adding a sixth musician" time="0.007">
+    </testcase>
+    <testcase classname="Troupe addMember Method Tests Successfully adds a member" name="Troupe addMember Method Tests Successfully adds a member" time="0.003">
+    </testcase>
+    <testcase classname="Troupe addMember Method Tests Throws error when adding a sixth member" name="Troupe addMember Method Tests Throws error when adding a sixth member" time="0.004">
+    </testcase>
+    <testcase classname="Troupe Class Tests troupeSummary with empty troupe" name="Troupe Class Tests troupeSummary with empty troupe" time="0.001">
+    </testcase>
+    <testcase classname="Troupe Class Tests troupeSummary with musicians" name="Troupe Class Tests troupeSummary with musicians" time="0.012">
+    </testcase>
+    <testcase classname="Troupe Class Tests troupeDetails with musicians" name="Troupe Class Tests troupeDetails with musicians" time="0.09">
+    </testcase>
+    <testcase classname="Troupe Class Tests calculateCost with duration less than minimum" name="Troupe Class Tests calculateCost with duration less than minimum" time="0.004">
+    </testcase>
+    <testcase classname="Troupe Class Tests calculateCost with valid duration" name="Troupe Class Tests calculateCost with valid duration" time="0.023">
+    </testcase>
+  </testsuite>
+</testsuites>

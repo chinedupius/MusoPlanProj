@@ -4,7 +4,8 @@
   "description": "musical management system",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "test-coverage": "jest --coverage"
   },
   "repository": {
     "type": "git",
@@ -17,7 +18,13 @@
   },
   "homepage": "https://github.com/chinedupius/MusoPlanProj#readme",
   "dependencies": {
-    "jest": "^29.7.0"
+    "jest": "^29.7.0",
+    "jest-junit": "^16.0.0"
   },
-  "devDependencies": {}
+  "jest": {
+    "reporters": [
+        "default",
+        ["jest-junit", { "outputDirectory": "./test-reports", "outputName": "junit.xml" }]
+    ]
+  }
 }
